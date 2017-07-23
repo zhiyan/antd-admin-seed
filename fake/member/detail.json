@@ -1,0 +1,15 @@
+{
+  "ret" : true,
+  "data" :{
+      "id" : 1,
+      "companyAccount" : "张三",
+      "companyPassword" : "fddd",
+      "companyName" : "公司名",
+      "companyAddress": "xxx",
+      "companyLeader":"213",
+      "companyName":"xxx",
+      "companyContact":"213",
+      "city": 1305,
+      "province" : 13
+    }
+}

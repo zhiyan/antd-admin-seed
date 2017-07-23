@@ -1,0 +1,17 @@
+{
+  "ret" : true,
+  "data" :{
+      "eid": "测试内容34wc",
+      "equipName": "测试内容t4xu",
+      "id": 76001,
+      "remark": "测试内容4u3t",
+      "renterAddress": "测试内容3mcs",
+      "renterMobile": "测试内容4h13",
+      "renterName": "测试内容hj2b",
+      "staffId": 11764,
+      "staffName": "测试内容m091",
+      "city": 1305,
+      "province" : 13,
+     "district" : 1223
+    }
+}

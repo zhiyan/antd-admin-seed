@@ -1,0 +1,49 @@
+{
+  "ret" : true,
+  "data" : {
+    "totalCount" : 1010,
+    "currentPage" :1,
+    "pageSize" : 20,
+    "pageCount":10,
+    "prePage":false,
+    "nextPage":false,
+    "list" : [
+      {
+        "components": [
+          {"name":"A型材料", "percentage": 20, "remainingDays":20},
+          {"name":"B型材料", "percentage": 20, "remainingDays":20}
+        ],
+        "eid": "123",
+        "equipName": "设备名称",
+        "equipType": "a",
+        "mobile": "18575832500",
+        "mobiles" : ["18575832500", "18575832500"],
+        "nickname": "测试内容6747",
+        "province": "北京",
+        "city":"北京市",
+        "onOff": 1,
+        "district":"海淀区",
+        "owner" : "客户名称1",
+        "createTime" : "2016-05-22"
+      },
+      {
+        "components": [
+          {"name":"A型材料", "percentage": 20, "remainingDays":20},
+          {"name":"B型材料", "percentage": 20, "remainingDays":20}
+        ],
+        "eid": "234",
+        "equipName": "设备名称",
+        "equipType": "b",
+        "mobile": "18575832500",
+        "mobiles" : ["18575832500", "18575832500"],
+        "nickname": "测试内容6747",
+        "onOff": 1,
+        "city":"北京市",
+        "district":"海淀区",
+        "province": "北京",
+        "owner" : "客户名称2",
+        "createTime" : "2016-05-22"
+      }
+  ]
+  }
+}

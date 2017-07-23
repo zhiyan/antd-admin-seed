@@ -1,0 +1,180 @@
+{
+  "ret" : true,
+	"data" : [
+  {
+    "key": 1,
+    "name": "公司账号管理",
+    "icon": "user",
+    "path": "member",
+    "child": [
+      {
+        "name": "公司账号列表",
+        "key": 101,
+        "path": "list"
+      },
+      {
+        "name": "公司账号添加",
+        "key": 102,
+        "path": "add"
+      }
+    ]
+  },
+  {
+    "key": 2,
+    "name": "客户信息管理",
+    "icon": "team",
+    "path":"consumer",
+    "child": [
+      {
+        "name": "消费者列表",
+        "key": 201,
+        "path": "list"
+      }
+    ]
+  },
+  {
+    "key": 3,
+    "name": "商城信息管理",
+    "icon": "pay-circle-o",
+    "path" : "shop",
+    "child": [
+      {
+        "name": "商铺管理",
+        "path": "edit",
+        "key": 301
+      }
+    ]
+  },
+  {
+    "key": 4,
+    "name": "资讯信息管理",
+    "icon": "file",
+    "path":"content",
+    "child": [
+      {
+        "name": "咨询列表",
+        "path":"list",
+        "key": 401
+      },
+      {
+        "name": "咨询添加",
+        "path":"add",
+        "key": 402
+      }
+    ]
+  },
+  {
+    "key": 5,
+    "name": "工单信息管理",
+    "icon": "hdd",
+    "path": "upkeep",
+    "child": [
+      {
+        "name": "工单列表",
+        "path": "list",
+        "key": 501
+      },
+      {
+        "name": "工单添加",
+        "path": "add",
+        "key": 502
+      }
+    ]
+  },
+  {
+    "key": 6,
+    "name": "系统用户管理",
+    "icon": "setting",
+    "path": "system",
+    "child": [
+      {
+        "name": "日志管理",
+        "key": 601,
+        "path":"log"
+      },
+      {
+        "name": "用户列表",
+        "key": 602,
+        "path": "user/list"
+      },
+      {
+        "name": "用户添加",
+        "key": 603,
+        "path": "user/add"
+      }
+    ]
+  },
+  {
+    "key": 7,
+    "name": "销售订单管理",
+    "icon": "setting",
+    "path": "rent",
+    "child": [
+      {
+        "name": "销售订单列表",
+        "key": 701,
+        "path":"list"
+      },
+      {
+        "name": "销售订单添加",
+        "key": 702,
+        "path": "add"
+      }
+    ]
+  },
+  {
+    "key": 8,
+    "name": "产品信息管理",
+    "icon": "setting",
+    "path": "product",
+    "child": [
+      {
+        "name": "销售产品列表",
+        "key": 801,
+        "path":"list"
+      },
+      {
+        "name": "销售产品添加",
+        "key": 802,
+        "path": "add"
+      }
+    ]
+  },
+  {
+    "key": 9,
+    "name": "设备分类管理",
+    "icon": "setting",
+    "path": "equip",
+    "child": [
+      {
+        "name": "新增设备信息",
+        "key": 901,
+        "path":"add"
+      },
+      {
+        "name": "设备类型列表",
+        "key": 902,
+        "path": "list"
+      }
+    ]
+  },
+  {
+    "key": 10,
+    "name": "缴费订单管理",
+    "icon": "setting",
+    "path": "order",
+    "child": [
+      {
+        "name": "缴费订单添加",
+        "key": 1001,
+        "path":"add"
+      },
+      {
+        "name": "缴费订单列表",
+        "key": 1002,
+        "path":"list"
+      }
+    ]
+  }
+]
+}

@@ -1,0 +1,9 @@
+{
+	"ret":true,
+	"data" : {
+		"account" : "admin", 
+		"roles" : "ADMIN",
+		"userId" : 1,
+		"company" : "xx公司"
+	}
+}

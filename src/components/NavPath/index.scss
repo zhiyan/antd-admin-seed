@@ -1,0 +1,36 @@
+.ant-layout-breadcrumb {
+	background:#fff;
+	padding:20px;
+	margin-bottom: 20px;
+	box-shadow:0 2px 5px rgba(0,0,0,.2);
+	line-height: 1;
+	position: relative;
+
+	h1{
+		font-size:16px;
+		color:#333;
+		font-weight: normal;
+	}
+}
+
+.export-btn{
+	position: absolute;
+	right:20px;
+}
+
+.export-wrapper{
+	position: absolute;
+	top:-60px;
+	right:20px;
+
+	button,button:hover{
+		border:0;
+		background:none;
+		color:#999;
+		font-size:14px;
+	}
+}
+
+.ant-breadcrumb{
+	font-size:16px !important;
+}

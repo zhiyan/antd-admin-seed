@@ -1,0 +1,9 @@
+{
+  "ret" : true,
+  "data" :{
+      "id" : 1,
+      "content" : "内容",
+      "title" : "标题",
+      "imgUrl" : "http://www.baidu.com/"
+    }
+}

@@ -1,0 +1,63 @@
+{
+  "data": {
+    "currentPage": 1,
+    "list": [
+      {
+        "components": [
+          {
+            "cName": "PP棉滤芯",
+            "cid": 1002,
+            "eName": "PPF",
+            "id": 1,
+            "lifeDays": 150,
+            "mType": "A_TYPE",
+            "showOrder": 1,
+            "percent" : 20
+          },
+          {
+            "cName": "颗粒活性炭滤芯",
+            "cid": 1002,
+            "eName": "UDF",
+            "id": 2,
+            "lifeDays": 150,
+            "mType": "A_TYPE",
+            "showOrder": 2,
+            "percent" : 20
+          }
+        ],
+        "createTime": "2011-05-22",
+        "equipName": "设备名称a",
+        "equipType": "型号b",
+        "id": 12338,
+        "workMode": 2,
+        "productType" : 1
+      },
+      {
+        "components": [
+          {
+            "cName": "PP棉滤芯",
+            "cid": 1002,
+            "eName": "PPF",
+            "id": 1,
+            "lifeDays": 150,
+            "mType": "A_TYPE",
+            "showOrder": 1,
+            "percent" : 20
+          }
+        ],
+        "createTime": "2011-05-22",
+        "equipName": "设备名称aa",
+        "equipType": "型号bv",
+        "id": 12337,
+        "workMode": 1,
+        "productType" : 2
+      }
+    ],
+    "nextPage": false,
+    "pageCount": 10,
+    "pageSize": 20,
+    "prePage": false,
+    "totalCount": 1010
+  },
+  "ret": true
+}

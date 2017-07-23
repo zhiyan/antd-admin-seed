@@ -1,0 +1,78 @@
+@import "~antd/dist/antd.less";
+@border-radius-base     : 0px;
+@border-radius-sm       : 0px;
+// @font-family						:"微软雅黑";
+@font-size-base  				: 14px;
+@primary-color          :#4da7fd;
+
+.ant-radio-inner:after{
+	border-radius:50%;
+}
+
+a{
+	color: #4da7fd;
+}
+
+table{
+	border: 1px solid @border-color-base;
+}
+
+.ant-layout-content{
+	border:1px solid #dedede !important;
+	min-height:600px;
+
+	.ant-table-tbody{
+		background: #fff;
+	}
+}
+
+.ant-menu-vertical > .ant-menu-item, .ant-menu-inline > .ant-menu-item, .ant-menu-item-group-list > .ant-menu-item, .ant-menu-vertical > .ant-menu-submenu > .ant-menu-submenu-title, .ant-menu-inline > .ant-menu-submenu > .ant-menu-submenu-title, .ant-menu-item-group-list > .ant-menu-submenu > .ant-menu-submenu-title{
+	font-size:14px;
+}
+
+
+.ant-table{
+	color:#686868;
+	table{
+		border:0;
+	}
+	.ant-table-thead > tr > th{
+		border-bottom:1px solid #dedede;
+		padding:8px;
+		font-weight: normal;
+		font-size:14px;
+	}
+	.ant-table-tbody > tr > td{
+		border-color: #dedede;
+		padding:9px 8px;
+		font-size:12px;
+	}
+
+	tr > th:first-child, tr > td:first-child{
+		padding-left: 20px;
+	}
+
+	.ant-table-thead > tr.ant-table-row-hover, .ant-table-tbody > tr.ant-table-row-hover, .ant-table-thead > tr:hover, .ant-table-tbody > tr:hover{
+		background: #F6F8FC;
+	}
+
+	.ant-divider{
+		margin:0 10px;
+		height: 10px;
+	}
+}
+
+.ant-pagination{
+	margin-right: 20px;
+	margin-top: 20px;
+	// font-size:12px;
+
+	.ant-pagination-item{
+		border-color:transparent;
+		border-radius:3px;
+	}
+
+	.ant-pagination-item-active{
+		background: #65A5F6;
+	}
+}

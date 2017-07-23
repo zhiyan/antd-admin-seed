@@ -1,0 +1,23 @@
+{
+  "ret" : true,
+  "data" : {
+    "totalCount" : 1010,
+    "currentPage" :1,
+    "pageSize" : 20,
+    "pageCount":10,
+    "prePage":false,
+    "nextPage":false,
+    "list" : [
+    {
+      "id" : 1,
+      "account" : "张三",
+      "realName" : "fddd"
+    },
+    {
+      "id" : 2,
+      "account" : "李四",
+      "realName" : "fdd222d"
+    }
+  ]
+  }
+}

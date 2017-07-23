@@ -1,0 +1,27 @@
+{
+  "ret" : true,
+  "data" : {
+    "totalCount" : 1010,
+    "currentPage" :1,
+    "pageSize" : 20,
+    "pageCount":10,
+    "prePage":false,
+    "nextPage":false,
+    "list" : [
+    {
+      "id" : 1,
+      "author" : "张三",
+      "synopsis": "摘要信息",
+      "createTime" : "2016-04-22",
+      "title" : "公司名"
+    },
+    {
+      "id" : 2,
+      "author" : "李四",
+      "synopsis": "摘要信息",
+      "createTime" : "2016-04-22",
+      "title" : "公司名2"
+    }
+  ]
+  }
+}

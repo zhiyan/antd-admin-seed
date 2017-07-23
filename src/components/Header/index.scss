@@ -1,0 +1,49 @@
+.ant-layout-header {
+	position: relative;
+	.header-title{
+		position: absolute;
+		color:#fff;
+		line-height: 65px;
+		left:50px;
+		font-size:20px;
+	}
+  .header-menu {
+	  background: #0080ff;
+	  height:66px;
+	  line-height: 65px;
+    > li {
+      float: right;
+
+      >a , .ant-menu-submenu-title{
+      	color:#fff;
+      }
+    }
+
+    .ant-menu-item:hover,.ant-menu-submenu:hover{
+    	border-bottom:0;
+    }
+
+    .ant-menu-submenu-open,.ant-menu-item-active a{
+    	background:transparent;
+    	color:#fff !important;
+    	opacity:1;
+
+    	&:after,&:before{
+    		display: none;
+    	}
+    }
+
+    .ant-menu-item:hover, .ant-menu-item-active, .ant-menu-submenu-active, .ant-menu-submenu-title:hover{
+    	background:#0080ff;
+    	color:#fff;
+    }
+
+    .ant-menu-item:hover > a{
+    	color:#fff;
+    }
+
+    .ant-menu-submenu-horizontal > .ant-menu{
+    	margin-top: 0;
+    }
+  }
+}

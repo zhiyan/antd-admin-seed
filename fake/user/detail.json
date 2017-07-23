@@ -1,0 +1,9 @@
+{
+  "ret" : true,
+  "data" :{
+      "uid" : 1,
+      "account" : "张三",
+      "nickname" : "fddd",
+      "password":"213"
+    }
+}

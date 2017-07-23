@@ -1,0 +1,163 @@
+{
+  "data": {
+    "equipChart": [
+      {
+        "value": 1,
+        "name": "北京"
+      },
+      {
+        "value": 3,
+        "name": "山东"
+      },
+      {
+        "value": 35,
+        "name": "河北"
+      }
+    ],
+    "sevenCount": 4,
+    "sevenSave": 471860,
+    "sevenVolume": 235930,
+    "lastMonth": [
+      {
+        "createDate": "2017-04-05",
+        "inVolume": 185141,
+        "outVolume": 35930,
+        "saveVolume": 1860
+      },
+      {
+        "createDate": "2017-03-21",
+        "inVolume": 12577,
+        "outVolume": 11157,
+        "saveVolume": 12314
+      },
+      {
+        "createDate": "2017-03-10",
+        "inVolume": 12857,
+        "outVolume": 12332,
+        "saveVolume": 1114
+      },
+      {
+        "createDate": "2017-03-09",
+        "inVolume": 878,
+        "outVolume": 495,
+        "saveVolume": 2990
+      },
+      {
+        "createDate": "2017-03-08",
+        "inVolume": 22186,
+        "outVolume": 8819,
+        "saveVolume": 38
+      },
+      {
+        "createDate": "2017-03-07",
+        "inVolume": 1967,
+        "outVolume": 4591,
+        "saveVolume": 9182
+      }
+    ],
+    "thisMonth": [
+      {
+        "createDate": "2017-04-05",
+        "inVolume": 385141,
+        "outVolume": 235930,
+        "saveVolume": 471860
+      },
+      {
+        "createDate": "2017-03-21",
+        "inVolume": 2577,
+        "outVolume": 1157,
+        "saveVolume": 2314
+      },
+      {
+        "createDate": "2017-03-10",
+        "inVolume": 857,
+        "outVolume": 2,
+        "saveVolume": 4
+      },
+      {
+        "createDate": "2017-03-09",
+        "inVolume": 9878,
+        "outVolume": 6495,
+        "saveVolume": 12990
+      },
+      {
+        "createDate": "2017-03-08",
+        "inVolume": 22186,
+        "outVolume": 8819,
+        "saveVolume": 17638
+      },
+      {
+        "createDate": "2017-03-07",
+        "inVolume": 1967,
+        "outVolume": 4591,
+        "saveVolume": 9182
+      }
+    ],
+    "todayCount": 0,
+    "todaySave": 0,
+    "todayVolume": 0,
+    "userByDate": [
+      {
+        "createDate": "2017-04-05",
+        "sumCount": 38,
+        "userCount": 3
+      },
+      {
+        "createDate": "2017-04-01",
+        "sumCount": 35,
+        "userCount": 1
+      },
+      {
+        "createDate": "2017-03-31",
+        "sumCount": 34,
+        "userCount": 4
+      },
+      {
+        "createDate": "2017-03-28",
+        "sumCount": 30,
+        "userCount": 1
+      },
+      {
+        "createDate": "2017-03-27",
+        "sumCount": 29,
+        "userCount": 6
+      },
+      {
+        "createDate": "2017-03-24",
+        "sumCount": 23,
+        "userCount": 1
+      },
+      {
+        "createDate": "2017-03-20",
+        "sumCount": 22,
+        "userCount": 1
+      },
+      {
+        "createDate": "2017-03-19",
+        "sumCount": 21,
+        "userCount": 1
+      },
+      {
+        "createDate": "2017-03-16",
+        "sumCount": 20,
+        "userCount": 2
+      },
+      {
+        "createDate": "2017-03-09",
+        "sumCount": 18,
+        "userCount": 1
+      },
+      {
+        "createDate": "2017-03-08",
+        "sumCount": 17,
+        "userCount": 1
+      }
+    ],
+    "yesterdayCount": 0,
+    "yesterdaySave": 0,
+    "yesterdayVolume": 0
+  },
+  "errcode": 0,
+  "ret": true,
+  "ver": "1.0"
+}

@@ -1,0 +1,8 @@
+{
+	"ret":true,
+	"data" : {
+		"account" : "admin", 
+		"roles" : "ADMIN",
+		"userId" : 1
+	}
+}

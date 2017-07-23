@@ -1,0 +1,41 @@
+.panel-box {
+	border:0;
+	border-bottom:1px solid #dedede;
+
+	label{
+		font-size:12px;
+	}
+
+	.ant-collapse-header{
+		background:#F7F7F7;
+		padding-left: 0 !important;
+		border-bottom:1px solid #DEDEDE;
+
+		span{
+			background:#fff;
+			display: inline-block;
+			width: 94px;
+			text-align: center;
+			border-top:2px solid #377EF7;
+			border-right:1px solid #dedede;
+			box-sizing:border-box;
+			height:38px;
+			color:#686868;
+			font-size:14px;
+		}
+	}
+
+	.ant-collapse-content > .ant-collapse-content-box{
+		padding-bottom: 0;
+	}
+
+	.ant-form-item{
+		margin-right: 20px;
+	}
+
+  > .ant-collapse-item {
+    > .ant-collapse-header {
+      padding-left: 10px;
+    }
+  }
+}

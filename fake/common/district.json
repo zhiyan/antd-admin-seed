@@ -1,0 +1,25 @@
+{
+  "data": [
+    {
+      "id": 11,
+      "code": 1222,
+      "districtName": "海淀区",
+      "cityCode": 12
+    },
+    {
+      "id": 12,
+      "code": 1223,
+      "districtName": "朝阳区",
+      "cityCode": 12
+    },
+    {
+      "id": 13,
+      "code": 1224,
+      "districtName": "丰台区",
+      "cityCode": 12
+    }
+  ],
+  "errcode": 0,
+  "ret": true,
+  "ver": "1.0"
+}
