@@ -1,7 +1,7 @@
 {
-  "name": "westron",
+  "name": "antd-admin-seed",
   "version": "1.0.0",
-  "description": "westron admin system",
+  "description": "基于antd的后台管理系统",
   "main": "index.js",
   "scripts": {
     "test": "mocha tests/.setup.js tests/**/*-test.js --compilers css:mocha-compiler.js",
