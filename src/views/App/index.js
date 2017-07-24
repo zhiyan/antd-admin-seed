@@ -21,7 +21,7 @@ class App extends React.Component {
     super(props)
 
     this.state = {
-      copyright: '北京伟思创科技股份有限公司'
+      copyright: 'antd-admin-seed by zhiyan'
     }
     this.props.actions.getCity()
   }

@@ -171,7 +171,7 @@ class Login extends React.Component {
     return (
       <div className="login-wrapper">
         <div className="login-modal">
-          <header className="login-title"><span>MyPure 健康信息管理云平台</span></header>
+          <header className="login-title"><span>antd-admin-seed</span></header>
           <Row className="login-row" type="flex" justify="space-around" align="middle">
             <Col>
               <div className="login-nav">
