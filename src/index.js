@@ -30,14 +30,14 @@ ReactDOM.render(
         <Route path="/" onEnter={validate} breadcrumbName="首页">
           <IndexRedirect to="home" />
           <Route component={App}>
-            <Route path="home" component={Home} breadcrumbName="数据概览"/>
+            <Route path="home" component={Home} breadcrumbName="Dashboard"/>
             <Route path="changepass" component={Changepass} breadcrumbName="更改密码"/>
 
-            <Route path="system" breadcrumbName="系统管理">
-              <IndexRedirect to="usr/list" />
-              <Route path="user/list" component={UserList} breadcrumbName="用户列表"/>
-              <Route path="user/add" component={UserAdd} breadcrumbName="用户添加"/>
-              <Route path="user/edit/:id" component={UserAdd} breadcrumbName="用户修改"/>
+            <Route path="user" breadcrumbName="用户管理">
+              <IndexRedirect to="list" />
+              <Route path="list" component={UserList} breadcrumbName="用户列表"/>
+              <Route path="add" component={UserAdd} breadcrumbName="用户添加"/>
+              <Route path="edit/:id" component={UserAdd} breadcrumbName="用户修改"/>
             </Route>
 
           </Route>
