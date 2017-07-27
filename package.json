@@ -4,7 +4,6 @@
   "description": "基于antd的后台管理系统",
   "main": "index.js",
   "scripts": {
-    "test": "mocha tests/.setup.js tests/**/*-test.js --compilers css:mocha-compiler.js",
     "start": "node server",
     "build": "rm -rf dist/* && webpack --progress --hide-modules --config webpack.production.js"
   },
@@ -39,14 +38,10 @@
     "babel-preset-stage-0": "^6.5.0",
     "babel-register": "^6.5.2",
     "babel-runtime": "^6.5.0",
-    "chai": "^3.5.0",
     "css-loader": "^0.23.1",
-    "enzyme": "^2.0.0",
     "file-loader": "^0.8.5",
-    "jsdom": "^8.0.4",
     "less": "^2.6.0",
     "less-loader": "^2.2.2",
-    "mocha": "^2.4.5",
     "node-sass": "^3.7.0",
     "react-addons-test-utils": "^15.1.0",
     "sass-loader": "^3.2.0",
