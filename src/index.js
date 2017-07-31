@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import {Provider} from 'react-redux'
 import {Router, Route, IndexRedirect, browserHistory} from 'react-router'
+import {COOKIE_NAME} from './config'
 
 import configureStore from './store/configureStore'
 
@@ -17,8 +18,8 @@ import {getCookie} from './utils'
 const store = configureStore()
 
 const validate = function (next, replace, callback) {
-  const isLoggedIn = !!getCookie('uid')
-  if (!isLoggedIn && next.location.pathname != '/login') {
+  const isLoggedIn = !!getCookie(COOKIE_NAME)
+  if (!isLoggedIn && next.location.pathname !== '/login') {
     replace('/login')
   }
   callback()

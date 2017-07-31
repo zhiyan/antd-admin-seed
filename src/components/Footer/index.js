@@ -11,7 +11,7 @@ export default class Footer extends React.Component {
 
     return (
       <div className="ant-layout-footer">
-      &copy; {this.props.text}
+      &copy; antd-admin-seed by zhiyan
       </div>
     )
   }

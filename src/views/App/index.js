@@ -8,7 +8,6 @@ import Header from '../../components/Header'
 import Sidebar from '../../components/Sidebar'
 import Footer from '../../components/Footer'
 import {fetchProfile, logout} from '../../actions/user';
-import {getCity} from '../../actions/province'
 
 import {getCookie} from '../../utils'
 
@@ -19,23 +18,10 @@ import './index.scss';
 class App extends React.Component {
   constructor(props) {
     super(props)
-
-    this.state = {
-      copyright: 'antd-admin-seed by zhiyan'
-    }
-    this.props.actions.getCity()
   }
 
   componentWillMount() {
     const {actions} = this.props;
-    const company = getCookie('company')
-
-    if(company){
-      document.title = decodeURI(company)
-      this.setState({
-        copyright: decodeURI(company)
-      })
-    }
     actions.fetchProfile();
   }
 
@@ -56,7 +42,7 @@ class App extends React.Component {
             </div>}
             
           </div>
-          <Footer text={this.state.copyright}/>
+          <Footer />
         </div>
       </div>
     );
